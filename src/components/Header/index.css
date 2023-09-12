@@ -1,0 +1,112 @@
+.nav-container-lg{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border:none;
+    border-bottom:1px solid #b0b8b6;
+}
+
+@media screen and (max-width:768px){
+    .nav-container-lg{
+        display:none;
+    }
+}
+
+.website-logo{
+    height:80px;
+    width:120px;
+    margin-left:20px;
+}
+.items{
+    display:flex;
+    flex-direction: row;
+}
+.item{
+    list-style-type: none;
+    margin-top:30px;
+    color:black;
+    font-family:'Roboto';
+    font-size:15px;
+    margin-right:20px;
+}
+.nav-item{
+    list-style-type: none;
+    color:black;
+    font-family:'Roboto';
+    font-size:15px;
+    margin:20px;
+}
+.trail-button{
+    margin-top:25px;
+    background-color: black;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:bold;
+    height:30px;
+    width:100px;
+    border:none;
+    border-radius:20px;
+    margin-right:20px;
+}
+
+@media screen and (max-width:768px){
+    .trail-button{
+        border:none;
+        background-color:transparent;
+        color:black;
+        border-bottom:1px solid black;
+        border-radius:0px;
+        font-weight:500px;
+    }
+}
+
+.nav-items-section{
+    display:flex;
+    flex-direction: row;
+    margin-top:10px;
+    margin-left:20px;
+}
+    .nav-items-section-sm{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+
+    }
+
+.select-element{
+    border:none;
+    background-color: transparent;
+    outline:none;
+}
+.navbar-section{
+    display:flex;
+    flex-direction: row;
+}
+.nav-container-sm{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-bottom:1px solid #b0b8b6;
+}
+@media screen and (min-width:768px){
+    .nav-container-sm{
+        display:none;
+    }
+}
+.nav-small-device-items{
+    display:flex;
+    flex-direction: row;
+}
+.menu-button{
+    background-color: transparent;
+    border:none;
+}
+
+.cross-button{
+    background-color: transparent;
+    border:none;
+    height:40px;
+    width:40px;
+}

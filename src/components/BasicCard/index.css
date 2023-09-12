@@ -1,0 +1,100 @@
+
+.basic-card{
+    display:flex;
+    flex-direction: column;
+    height:500px;
+}
+
+.basic-title{
+    margin-top:20px;
+    margin-left:20px;
+    font-size:20px;
+    font-family:'Roboto';
+    color:black;
+}
+.basic-business-type{
+    font-size:12px;
+    font-family:'Roboto';
+    color:black;
+    font-weight:bold;
+    margin-left:20px;
+    margin-bottom:0px;
+}
+.basic-business-description{
+    font-size:10px;
+    font-family:'Roboto';
+    color:#282929;
+    margin-top:0px;
+    width:85%;
+    margin-left:20px;
+}
+
+.basic-price-section{
+    display:flex;
+    flex-direction: row;
+    margin-left:20px;
+}
+.price-section{
+    display:flex;
+    flex-direction:column;
+    margin-top:60px;
+}
+.basic-amount{
+    font-size:45px;
+    font-family:'Roboto';
+    color:black;
+    font-weight:bold;
+}
+.basic-amount-type{
+    color:#1e2121;
+    margin:0px;
+    font-size:12px;
+    font-weight:1000px;
+    font-family:'Roboto';
+}
+
+.basic-middle-section{
+    background-color: #c8faf0;
+    width:300px;
+    text-align: center;
+    height:30px;
+}
+.basic-month-wise-price{
+    color:black;
+    font-size:15px;
+    font-family:'Roboto';
+    margin-top:5px;
+}
+.details-section{
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+    margin-left:30px;
+}
+.details-description{
+    font-size:10px;
+    font-family:'Roboto';
+    color:#282929;
+    margin-top:5px;   
+}
+.tick-icon{
+    margin-top:50px;
+}
+.basic-details{
+    display:flex;
+    flex-direction: row;
+    margin-top:0px;
+}
+
+.basic-try-button{
+    background-color: black;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:bold;
+    height:30px;
+    width:200px;
+    border:none;
+    border-radius:10px;
+    align-self: center;
+    margin-bottom:10px;
+}
